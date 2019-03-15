@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body,html {
+/*   padding: 6%; */
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", serif;
+  color: #222;
+}
+
+.search-form--button{
+    margin-top: 20px
+}
+
+.jumbotron{
+    padding: 10em;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 12px
+}
+
+.history-content{
+    width: 90%;
+}
+.history-content:hover{
+    background-color: rgba(0, 255, 255, 0.041) 
+}
