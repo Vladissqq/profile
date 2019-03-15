@@ -69,11 +69,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className='container'>
-        <div className='container-fluid sticky-top row jumbotron'>
+      <div className='container '>
+        <div className='container-fluid sticky-top row jumbotron jumbotron-fluid'>
           <Form addHistory={this.addHistory} />
         </div>
-        <div className='container-fluid row jumbotron'>
+        <div className='container row jumbotron jumbotron-fluid'>
           {
             this.state.history.map((h) => {
               return (

@@ -18,11 +18,14 @@ class History extends Component {
 
     render() {
         return (
-            <div className='container-fluid text-center flex'>
-                <p className='lead history-content'>{this.historyContent}&nbsp;<b>{this.data}</b></p>
-                <div >
+            <div className='container-fluid   row'>
+                <div className='history-content col-lg-10 container-fluid text-left lead'>
+                    <div><b className= 'history-data'>{this.data}</b></div> 
+                    <p className='p  '>{this.historyContent}&nbsp;</p>
+                </div>
+                <div className='col-lg-2'>
                     <span
-                        className='btn btn-outline-danger history-remove'
+                        className='btn btn-outline-danger history-remove '
                         onClick={() => this.handleRemoveHistory(this.historyId)}>
                         &times;
                     </span>

@@ -21,8 +21,12 @@ body,html {
     margin-bottom: 12px
 }
 
-.history-content{
-    width: 90%;
+.p{
+    white-space: normal
+}
+.history-data{
+    font-size: 12px;
+    color: #007bff;
 }
 .history-content:hover{
     background-color: rgba(0, 255, 255, 0.041) 
